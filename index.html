@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body onload="init()">
+        <table>
+            <tr>
+                <th>Wins</th>
+                <th>Loses</th>
+            </tr>
+            <tr>
+                <td id="wins">0</td>
+                <td id="loses">0</td>
+            </tr> 
+        </table>
+
+        <button id="start">start</button>
+        <button id="guess_higher">☝ the next card is higher</button>
+        <button id="guess_lower">👇 the next card is lower</button>
+        <button id="restart">play again?</button>
+        
+        <h1>Turns</h1>
+        <div id="turns"></div>
+       <script src="app.js"></script>
+    </body>
+</html>

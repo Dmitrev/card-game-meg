@@ -1,0 +1,43 @@
+body, html {
+    padding: 3rem;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+table {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+td,th {
+    padding: .5rem;
+    text-align: center;
+}
+
+tr {
+    padding: 1rem;
+}
+button {
+    background: white;
+    border: 3px solid rgb(35, 35, 35);
+    color: rgb(35, 35, 35);
+    font-size: 1rem;
+    padding: .5rem 1rem;
+}
+.correct {
+    background: rgb(130, 255, 130);
+}
+
+.incorrect {
+    background: rgb(234, 157, 157);
+}
+
+#guess_higher, #guess_lower, #restart {
+    display: none;
+}
+
+.turn {
+    padding: 1rem;
+    font-size: 1rem;
+}
