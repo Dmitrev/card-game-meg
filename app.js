@@ -88,11 +88,13 @@ class GameManger {
         if (!isCorrect) {
             this.gameOver = true;
             this.losses++;
+            alert("Sorry you've lost.");
         }
 
         if (this.correctGuesses === 5) {
             this.gameOver = true;
             this.wins++;
+            alert("Congrats you've won.");
         }
 
         this.renderGui();
